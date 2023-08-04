@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  color: aqua;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.App {
+  text-align: center;
+  font-size: larger;
+  color:rgb(22, 182, 218)
+  
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white; 
+  font-size: 18px;
+}
+/* App.css or your custom CSS file */
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  max-height: calc(100vh - 150px);
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #9087dd;
+  color: rgb(252, 13, 13);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: position 0.3s ease; /* Add a smooth transition */
+}
+
+.footer-fixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-static {
+  position: static;
+}
+footer p {
+  color: #000000; /* Replace with your desired font color */
+}
