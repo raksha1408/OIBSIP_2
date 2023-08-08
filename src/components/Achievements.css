@@ -1,0 +1,133 @@
+/* Achievements.css */
+
+/* Background color for light mode */
+.achievements-container-image {
+    max-width: 100%;
+    max-height: 500px; /* Increase the height of the image */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Position the image outside the white box */
+    left: 20px; /* Adjust the left position to move the image to the left */
+    top: 60%; /* Center the image vertically */
+    transform: translateY(-50%); /* Center the image vertically */
+    margin-left: 100px;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .App {
+    text-align: center;
+    font-size: larger;
+    color: rgb(22, 182, 218);
+}
+  
+  .achievements-content {
+    flex: initial;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 8px;
+    order: initial;
+    text-align: left;
+    margin-left: 500px;
+}
+.achievement-content {
+    flex: initial;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 8px;
+    order: initial;
+    text-align: left;
+    margin-left: 10px;
+}
+  
+  .achievements-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .achievements-image img {
+    max-width: 80%;
+    max-height: 350px; /* Increase the height of the image */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Position the image outside the white box */
+    left: 20px; /* Adjust the left position to move the image to the left */
+    top: 60%; /* Center the image vertically */
+    
+    transform: translateY(-50%); /* Center the image vertically */
+  }
+  .second-image img {
+    max-width: 80%;
+    max-height: 480px;
+    border-radius: 8px;
+    padding-bottom: 5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 1%;
+   top:130%;
+ 
+    transform: translateY(-50%);
+}
+  
+  .achievements-content {
+    flex: 2 1;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 50px;
+ 
+}
+.achievement-content {
+    flex: 2 1;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 50 px;
+  
+}
+  
+  .achievements-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .achievement-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+
+  }
+  
+  .achievements-list {
+    list-style: none;
+    padding: 0;
+  
+  }
+  .achievement-list {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  
+  .achievements-list li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  .achievement-list li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .achievements-list li:last-child {
+    margin-bottom: 0;
+  }
+  .achievement-list li:last-child {
+    margin-bottom: 0;
+  }
+ 
+ 
